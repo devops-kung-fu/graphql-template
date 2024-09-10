@@ -1,0 +1,19 @@
+{
+    "name": "github-graphql",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:bullseye",
+    "containerEnv": {
+        "GITHUB_TOKEN": "${localEnv:GITHUB_TOKEN}"
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {    
+                "workbench.colorTheme": "Default Light Modern"
+            },
+            "extensions": [
+                "GraphQL.vscode-graphql-execution",
+                "GraphQL.vscode-graphql",
+                "GraphQL.vscode-graphql-syntax"
+            ]
+        }
+    }
+}
