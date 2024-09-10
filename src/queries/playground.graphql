@@ -1,0 +1,8 @@
+query GetViewer {
+	viewer {
+		login
+		name
+		email
+		avatarUrl
+	}
+}
